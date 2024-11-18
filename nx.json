@@ -1,0 +1,34 @@
+{
+  "$schema": ".yarn/unplugged/nx-virtual-62b135742d/node_modules/nx/schemas/nx-schema.json",
+  "defaultBase": "main",
+  "nxCloudId": "673a16f83f47fa52b6b6deac",
+  "plugins": [
+    "@nx-dotnet/core",
+    {
+      "plugin": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static"
+      }
+    }
+  ],
+  "projects": {
+    "SecureGate": {
+      "root": "SecureGate"
+    },
+    "SecureGate-e2e": {
+      "root": "SecureGate-e2e"
+    }
+  },
+  "tasks": {},
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "nx-dotnet:restore"
+      ]
+    }
+  }
+}

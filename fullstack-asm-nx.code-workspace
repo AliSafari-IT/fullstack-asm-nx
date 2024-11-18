@@ -1,16 +1,21 @@
 {
-	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "./docs",
-			"name": "Docs"
-		},
-		{
-			"path":"./scripts",
-			"name": "Scripts",
-		}
-	],
-	"settings": {}
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "./docs",
+      "name": "Docs"
+    },
+    {
+      "path": "./scripts",
+      "name": "Scripts"
+    },
+    {
+      "path": "./backends/SecureGate",
+      "name": "SecureGate"
+    },
+	
+  ],
+  "settings": {}
 }
