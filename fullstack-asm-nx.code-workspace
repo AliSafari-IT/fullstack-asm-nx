@@ -12,7 +12,7 @@
       "name": "Scripts"
     },
     {
-      "path": "./backends/SecureGate",
+      "path": "./apps/SecureGate",
       "name": "SecureGate"
     },
 	
