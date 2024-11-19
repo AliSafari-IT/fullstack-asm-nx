@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureWeb", "SecureWeb.csproj", "{DEA4FC34-05BF-432F-8E69-71B068DA0C11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA4FC34-05BF-432F-8E69-71B068DA0C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA4FC34-05BF-432F-8E69-71B068DA0C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA4FC34-05BF-432F-8E69-71B068DA0C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA4FC34-05BF-432F-8E69-71B068DA0C11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D5E2A79-3AE2-4B7A-95DA-EEAF02F8FF91}
+	EndGlobalSection
+EndGlobal
