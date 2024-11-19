@@ -16,11 +16,11 @@
     }
   ],
   "projects": {
-    "SecureGate": {
-      "root": "SecureGate"
+    "SecureWeb": {
+      "root": "SecureWeb"
     },
-    "SecureGate-e2e": {
-      "root": "SecureGate-e2e"
+    "SecureWeb-e2e": {
+      "root": "SecureWeb-e2e"
     }
   },
   "tasks": {},

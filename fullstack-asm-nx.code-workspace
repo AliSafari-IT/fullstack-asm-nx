@@ -12,8 +12,8 @@
       "name": "Scripts"
     },
     {
-      "path": "./apps/SecureGate",
-      "name": "SecureGate"
+      "path": "./apps/SecureWeb",
+      "name": "SecureWeb"
     },
 	
   ],
