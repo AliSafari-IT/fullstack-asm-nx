@@ -2,6 +2,8 @@
   "name": "fullstack-asm-nx",
   "packageManager": "yarn@4.5.1",
   "devDependencies": {
+    "@fluentui/react": "^8.121.11",
+    "@fluentui/react-components": "^9.56.2",
     "@nx-dotnet/core": "^2.4.5",
     "@nx/js": "18.3.5",
     "@nx/vite": "18.3.5",
@@ -33,5 +35,11 @@
     "affected:dep-graph": "nx affected:dep-graph",
     "affected": "nx affected",
     "format": "nx format:write"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
