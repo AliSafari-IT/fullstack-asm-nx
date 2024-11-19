@@ -4005,6 +4005,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"SecureWeb@workspace:apps/SecureWeb":
+  version: 0.0.0-use.local
+  resolution: "SecureWeb@workspace:apps/SecureWeb"
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"

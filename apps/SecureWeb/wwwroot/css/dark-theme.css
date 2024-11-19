@@ -17,3 +17,15 @@ body.dark {
     background-color: #333333 !important;
     color: #ffffff !important;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #edf7fd !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #cdec1e !important;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link {
+    color: #10b4f5 !important;
+}

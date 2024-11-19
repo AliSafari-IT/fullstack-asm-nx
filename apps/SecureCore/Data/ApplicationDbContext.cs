@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace SecureWeb.Data
+namespace SecureCore.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -9,5 +9,7 @@ namespace SecureWeb.Data
             : base(options)
         {
         }
+
+        // Add other DbSets for your app's entities, if needed.
     }
 }

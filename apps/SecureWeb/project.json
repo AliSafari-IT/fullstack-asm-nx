@@ -1,0 +1,23 @@
+{
+   
+    "projects": {
+      "SecureWeb": {
+        "root": "apps/SecureWeb",
+        "architect": {
+          "build": {
+            "builder": "@nx-dotnet/core:build",
+            "options": {
+              "project": "apps/SecureWeb/SecureWeb.csproj"
+            }
+          },
+          "clean": {
+            "builder": "@nx-dotnet/core:clean",
+            "options": {
+              "project": "apps/SecureWeb/SecureWeb.csproj"
+            }
+          }
+        }
+      }
+    }
+  }
+  
