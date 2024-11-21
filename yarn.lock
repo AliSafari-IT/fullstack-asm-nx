@@ -3202,6 +3202,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fluentui/react@npm:^8.121.12":
+  version: 8.121.12
+  resolution: "@fluentui/react@npm:8.121.12"
+  dependencies:
+    "@fluentui/date-time-utilities": "npm:^8.6.9"
+    "@fluentui/font-icons-mdl2": "npm:^8.5.55"
+    "@fluentui/foundation-legacy": "npm:^8.4.21"
+    "@fluentui/merge-styles": "npm:^8.6.13"
+    "@fluentui/react-focus": "npm:^8.9.18"
+    "@fluentui/react-hooks": "npm:^8.8.16"
+    "@fluentui/react-portal-compat-context": "npm:^9.0.13"
+    "@fluentui/react-window-provider": "npm:^2.2.28"
+    "@fluentui/set-version": "npm:^8.2.23"
+    "@fluentui/style-utilities": "npm:^8.11.4"
+    "@fluentui/theme": "npm:^2.6.63"
+    "@fluentui/utilities": "npm:^8.15.19"
+    "@microsoft/load-themed-styles": "npm:^1.10.26"
+    tslib: "npm:^2.1.0"
+  peerDependencies:
+    "@types/react": ">=16.8.0 <19.0.0"
+    "@types/react-dom": ">=16.8.0 <19.0.0"
+    react: ">=16.8.0 <19.0.0"
+    react-dom: ">=16.8.0 <19.0.0"
+  checksum: 10c0/150523f143c621c5d11438494d15cc700263c3f6cc6890d30bcf889862fc9dbb73006f50c203c569d1f57640b5bb7eca7e50257fd35bff9043e5a04ba9199b44
+  languageName: node
+  linkType: hard
+
 "@fluentui/set-version@npm:^8.2.23":
   version: 8.2.23
   resolution: "@fluentui/set-version@npm:8.2.23"
@@ -3262,6 +3289,43 @@ __metadata:
     "@types/react": ">=16.8.0 <19.0.0"
     react: ">=16.8.0 <19.0.0"
   checksum: 10c0/6bed96c83b9d2e89c50648f1656417780d492f4656bcff2edf3d4247a4902c8429b147ac2817a81266de91d2a6ed07dda1e1a1f3b03be9d15da069ea7704730a
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-common-types@npm:6.7.1":
+  version: 6.7.1
+  resolution: "@fortawesome/fontawesome-common-types@npm:6.7.1"
+  checksum: 10c0/0345b896ad8df26fb823893ce0a405dd513e9ef34878dd7b94fbbbabe370379bf680a32199bcaaf7346acbcd2a10bf0072e305829b49e5d9b0bf1c5315d07c96
+  languageName: node
+  linkType: hard
+
+"@fortawesome/fontawesome-svg-core@npm:^6.7.1":
+  version: 6.7.1
+  resolution: "@fortawesome/fontawesome-svg-core@npm:6.7.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": "npm:6.7.1"
+  checksum: 10c0/7a1dc40fc5ef380eb0f83d89dfcb26dc5b49f6a6545970e46e413d81dfa9764006a056cfcd49c2e8113dbd2c95d429db873710424a150e4a923b2496e11707ca
+  languageName: node
+  linkType: hard
+
+"@fortawesome/free-solid-svg-icons@npm:^6.7.1":
+  version: 6.7.1
+  resolution: "@fortawesome/free-solid-svg-icons@npm:6.7.1"
+  dependencies:
+    "@fortawesome/fontawesome-common-types": "npm:6.7.1"
+  checksum: 10c0/9b6e6ba383dfc456020b77a600edcccaf8131ebd472038bd6b6f2425f011c8c63c0a6049d798dc120512b9c5332043eb46bb815d9d55c56ebdf8ecc94afb0184
+  languageName: node
+  linkType: hard
+
+"@fortawesome/react-fontawesome@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@fortawesome/react-fontawesome@npm:0.2.2"
+  dependencies:
+    prop-types: "npm:^15.8.1"
+  peerDependencies:
+    "@fortawesome/fontawesome-svg-core": ~1 || ~6
+    react: ">=16.3"
+  checksum: 10c0/824f96cd9be2e637738de3073450b30fe6b5a91b4f95df804c162b47ddf7d1a43df5ed7439a01e7236e888edc093efad1e61322ac693ddc3ae01147b90318745
   languageName: node
   linkType: hard
 
@@ -4432,6 +4496,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ASafariM.Server@workspace:apps/backends/ASafariM.Server":
+  version: 0.0.0-use.local
+  resolution: "ASafariM.Server@workspace:apps/backends/ASafariM.Server"
+  languageName: unknown
+  linkType: soft
+
+"SecureWeb@workspace:apps/backends/SecureWeb":
+  version: 0.0.0-use.local
+  resolution: "SecureWeb@workspace:apps/backends/SecureWeb"
+  languageName: unknown
+  linkType: soft
+
 "abbrev@npm:^2.0.0":
   version: 2.0.0
   resolution: "abbrev@npm:2.0.0"
@@ -4609,6 +4685,10 @@ __metadata:
   resolution: "asafarim-client@workspace:apps/frontends/asafarim-client"
   dependencies:
     "@eslint/js": "npm:^9.13.0"
+    "@fluentui/react": "npm:^8.121.12"
+    "@fortawesome/fontawesome-svg-core": "npm:^6.7.1"
+    "@fortawesome/free-solid-svg-icons": "npm:^6.7.1"
+    "@fortawesome/react-fontawesome": "npm:^0.2.2"
     "@types/react": "npm:^18.3.12"
     "@types/react-dom": "npm:^18.3.1"
     "@types/react-router-dom": "npm:^5.3.3"
@@ -7812,7 +7892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prop-types@npm:^15.6.2":
+"prop-types@npm:^15.6.2, prop-types@npm:^15.8.1":
   version: 15.8.1
   resolution: "prop-types@npm:15.8.1"
   dependencies:

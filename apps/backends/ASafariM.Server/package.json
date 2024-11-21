@@ -1,4 +1,9 @@
 {
   "name": "ASafariM.Server",
-  "packageManager": "yarn@4.5.1"
+  "packageManager": "yarn@4.5.1",
+  "scripts": {
+    "start": "dotnet watch --project ASafariM.Server.csproj",
+    "build": "nx build ASafariM.Server",
+    "test": "nx test ASafariM.Server"
+  }
 }

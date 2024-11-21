@@ -50,8 +50,8 @@
     "node": ">=16.14.0"
   },
   "workspaces": [
-    "apps/SecureWeb",
-    "apps/ASafariM.Server",
+    "apps/backends/SecureWeb",
+    "apps/backends/ASafariM.Server",
     "apps/frontends/asafarim-client"
   ]
 }
