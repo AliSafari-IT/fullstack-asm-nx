@@ -4,18 +4,25 @@
       "path": "."
     },
     {
+      "path": "./apps/SecureWeb",
+      "name": "SecureWeb"
+    },
+    {
+      "path": "./apps/ASafariM.Server",
+      "name": "ASafariM.Server"
+    },
+    {
+      "path": "./apps/frontends/asafarim-client",
+      "name": "ASafariM.Client"
+    },
+    {
       "path": "./docs",
       "name": "Docs"
     },
     {
       "path": "./scripts",
       "name": "Scripts"
-    },
-    {
-      "path": "./apps/SecureWeb",
-      "name": "SecureWeb"
-    },
-	
+    }
   ],
   "settings": {}
 }

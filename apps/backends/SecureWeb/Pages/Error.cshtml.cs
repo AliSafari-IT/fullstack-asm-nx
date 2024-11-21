@@ -19,10 +19,15 @@ namespace SecureWeb.Pages
             _logger = logger;
         }
 
-        public void OnGet()
+        public void OnGet(string? errorMessage = "An unexpected error occurred.")
         {
-            RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
-        }
-    }
+            var requestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
+            _logger.LogError("Error: {ErrorMessage}", errorMessage);
 
+            ErrorMessage = errorMessage;
+            RequestId = requestId;
+        }
+
+        public string? ErrorMessage { get; set; }
+    }
 }

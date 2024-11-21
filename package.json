@@ -15,11 +15,13 @@
     "vitest": "^1.3.1"
   },
   "scripts": {
+    "r": "yarn run sw:watch",
     "sw:mig": "bash scripts/bash_files/add-migration.sh",
     "prepare": "nx g @nx-dotnet/core:restore",
     "nx": "nx",
     "sw:build": "nx build SecureWeb",
     "sw:watch": "dotnet watch --project apps/SecureWeb/SecureWeb.csproj",
+    "asm:watch": "dotnet watch --project apps/ASafariM.Server/ASafariM.Server.csproj",
     "sw:test": "nx test SecureWeb",
     "start": "nx serve",
     "build": "nx build",
@@ -41,5 +43,15 @@
     "@types/react-dom": "^18.3.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "license": "MIT",
+  "private": true,
+  "engines": {
+    "node": ">=16.14.0"
+  },
+  "workspaces": [
+    "apps/SecureWeb",
+    "apps/ASafariM.Server",
+    "apps/frontends/asafarim-client"
+  ]
 }

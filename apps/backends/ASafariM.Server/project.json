@@ -1,0 +1,13 @@
+{
+    "dependencies": {
+        "Microsoft.AspNetCore.App": "8.0.0"
+    },
+    "frameworks": {
+        "net8.0": {}
+    },
+    "sdk": {
+        "name": "Microsoft.NET.Sdk",
+        "version": "8.0.100-preview.6.23329.13"
+    },
+    "version": "1.0.0"
+}
