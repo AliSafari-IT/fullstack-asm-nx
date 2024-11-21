@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASafariM.Server", "ASafariM.Server.csproj", "{C22C44FA-0F21-4F5C-9B0B-196F49D2DF28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecureCore", "..\..\..\libs\SecureCore\SecureCore.csproj", "{BDFE9954-3E0C-4887-84C3-412813AD1701}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C22C44FA-0F21-4F5C-9B0B-196F49D2DF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22C44FA-0F21-4F5C-9B0B-196F49D2DF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22C44FA-0F21-4F5C-9B0B-196F49D2DF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22C44FA-0F21-4F5C-9B0B-196F49D2DF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDFE9954-3E0C-4887-84C3-412813AD1701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDFE9954-3E0C-4887-84C3-412813AD1701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDFE9954-3E0C-4887-84C3-412813AD1701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDFE9954-3E0C-4887-84C3-412813AD1701}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2D590CC-97D5-4C30-8DC7-0CF233DFAD2D}
+	EndGlobalSection
+EndGlobal
