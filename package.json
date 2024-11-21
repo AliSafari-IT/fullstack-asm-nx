@@ -21,7 +21,7 @@
     "nx": "nx",
     "sw:build": "nx build SecureWeb",
     "sw:watch": "dotnet watch --project apps/SecureWeb/SecureWeb.csproj",
-    "asm:watch": "dotnet watch --project apps/ASafariM.Server/ASafariM.Server.csproj",
+    "asm:watch": "dotnet watch --project apps/backends/ASafariM.Server/ASafariM.Server.csproj",
     "sw:test": "nx test SecureWeb",
     "start": "nx serve",
     "build": "nx build",
