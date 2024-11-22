@@ -73,9 +73,3 @@ $RECYCLE.BIN/
 
 # Ignore the ASP.NET Scaffolding folder
 Scaffolding/
-.nx/
-.vs/
-*.log
-*.gz
-[Uu]ser-[Ss]ecrets.*
-usersecrets/
