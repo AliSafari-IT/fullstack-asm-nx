@@ -1,9 +1,0 @@
-{
-  "name": "SecureWeb",
-  "packageManager": "yarn@4.5.1",
-  "scripts": {
-    "start": "dotnet watch --project apps/SecureWeb/SecureWeb.csproj",
-    "build": "nx build SecureWeb",
-    "test": "nx test SecureWeb"
-  }
-}
